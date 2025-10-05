@@ -49,11 +49,11 @@ module.exports.handleEvent = async function({ api, event }) {
 
     warnings[senderID]++;
     if (warnings[senderID] === 2) {
-      api.sendMessage("आपको पहले ही वार्निंग ⚠️ दिया था की गाली मत देना दुबारा पर अपने मेरी बात नही मानी इसलिए आपको इस ग्रुप से निकाला जाता है। निकलो अब 😡", threadID, messageID);
+      api.sendMessage("Waring ⚠️ di thi na tujhe pehle .maine ab bhad mai ja nikal group ae kick  😡", threadID, messageID);
       api.removeUserFromGroup(senderID, threadID); 
       warnings[senderID] = 1;
     } else {
-      api.sendMessage(`आपको लास्ट वार्निंग ⚠️ दी जा रही है। अगर इस बार अपने गाली दिया तो आपको ग्रुप से निकाल दिया जाएगा 😡✊`, threadID, messageID);
+      api.sendMessage(`Is baar ab last warning ⚠️ deta hu tujhe agar meko gali di na to group se nikal dunga 😡✊`, threadID, messageID);
     }
   }
 };
