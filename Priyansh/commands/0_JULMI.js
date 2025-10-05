@@ -1,9 +1,9 @@
  const fs = require("fs");
 module.exports.config = {
-	name: "Julmi",
+	name: "Naaina",
     version: "1.0.1",
 	hasPermssion: 0,
-	credits: "Arun", 
+	credits: "NAAINA", 
 	description: "no prefix",
 	commandCategory: "No command marks needed",
 	usages: "...",
@@ -20,7 +20,8 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
      react.includes("admin") || 
 react.includes("Admin")) {
 		var msg = {
-				body: "★𝗢𝘄𝗻𝗲𝗿ﮩ٨ـﮩ💚💖ـ٨\n\n✦🌸===『*★🌸◉❖जुल्मी≛जाट❖◉✦\n\n★★᭄𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌 𝐋𝐈𝐍𝐊 𝐌𝐄𝐑𝐄 𝐁𝐎𝐒𝐒 𝐊𝐀 :\n\n✦ https://instagram.com/_julmi_jaat__?igshid=OGQ5ZDc2ODk2ZA==  ✦ \n𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐋𝐈𝐍𝐊 𝐌𝐄𝐑𝐄 𝐁𝐎𝐒𝐒 𝐊𝐀😁😋 https://www.facebook.com/julmijaat1008?mibextid=ZbWKwL`",
+				body: "༻𝐎𝐖𝐍𝐄𝐑:- ༺ ༒𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 〠𝐍𝐀𝐈𝐈𝐍𝐔〠.༒ ༒𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝༒:- ☞ https://www.facebook.com/profile.php?id=100090277345439☜",
+					
 				attachment: fs.createReadStream(__dirname + `/noprefix/Julmi.jpg`)
 			}
 			api.sendMessage(msg, threadID, messageID);
