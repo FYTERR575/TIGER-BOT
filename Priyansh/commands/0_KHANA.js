@@ -3,7 +3,7 @@ module.exports.config = {
 	name: "Khana",
     version: "1.1.1",
 	hasPermssion: 0,
-	credits: "PREM BABU", 
+	credits: "Naaina", 
 	description: "Just Respond",
 	commandCategory: "no prefix",
     cooldowns: 5, 
@@ -18,7 +18,7 @@ react.includes("breakfast") ||
 react.includes("dinner") ||
 react.includes("khaa lo")) {
 		var msg = {
-				body: `💝𝐌𝐚𝐝𝐞 𝐁𝐲:-☞𝗝𝗨𝗟𝗠𝗜 𝗝𝗔𝗔𝗧☜\n🙂 आओ बेबी मेरे साथ खा लो खाना 🙂`,attachment: fs.createReadStream(__dirname + `/noprefix/khana.gif`)
+				body: `💝𝐌𝐚𝐝𝐞 𝐁𝐲:-☞𝗡𝗔𝗔𝗜𝗡𝗔 𝗖𝗔𝗥𝗧𝗢𝗢𝗡☜\n🙂 aja babu mere sath khaana kha lo 🙂`,attachment: fs.createReadStream(__dirname + `/noprefix/khana.gif`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🍲", event.messageID, (err) => {}, true)
