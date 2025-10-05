@@ -5,7 +5,7 @@ module.exports.config = {
   name: "ai",
   version: "1.0.5",
   hasPermssion: 0,
-  credits: "𝑱𝑼𝑳𝑴𝑰 𝑱𝑨𝑨𝑻",
+  credits: "Naaina",
   description: "Can assist you in completing your homework, speech, and even essays.",
   commandCategory: "chatbots",
   usages: "ask anything",
