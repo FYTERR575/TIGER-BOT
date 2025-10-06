@@ -34,12 +34,12 @@ module.exports.run = async ({ event, api, args }) => {
             text = text.replace(/r/g, "🙂");
             text = text.replace(/s/g, "🙃");
             text = text.replace(/t/g, "☹️");
-            text = text.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ|u/g, "😡");
+            text = text.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ|u/g, "🙄");
             text = text.replace(/v/g, "😍");
             text = text.replace(/x/g, "😩");
-            text = text.replace(/ỳ|ý|ỵ|ỷ|ỹ|y/g, "😭");
+            text = text.replace(/ỳ|ý|ỵ|ỷ|ỹ|y/g, "🙈");
             text = text.replace(/w/g, "😳");
-            text = text.replace(/z/g, "😠");
+            text = text.replace(/z/g, "🤔");
             text = text.replace(/ /g, "."); // Replace space with dot
  
             // Some system encode Vietnamese combining accent as individual utf-8 characters
@@ -69,12 +69,12 @@ module.exports.run = async ({ event, api, args }) => {
             text = text.replace(/🙂/g, "r");
             text = text.replace(/🙃/g, "s");
             text = text.replace(/☹️/g, "t");
-            text = text.replace(/😡/g, "u");
+            text = text.replace(/🙄/g, "u");
             text = text.replace(/😍/g, "v");
             text = text.replace(/😩/g, "x");
-            text = text.replace(/😭/g, "y");
+            text = text.replace(/🤣/g, "y");
             text = text.replace(/😳/g, "w");
-            text = text.replace(/😠/g, "z");
+            text = text.replace(/🥺/g, "z");
             text = text.replace(/\./g, ' '); // Replace dot with space
             return api.sendMessage(text, event.threadID, event.messageID);
         }
