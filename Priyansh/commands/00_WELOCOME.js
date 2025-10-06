@@ -12,7 +12,7 @@ module.exports.run = async function({ event, api, args, client, Currencies, User
 const fs = global.nodemodule["fs-extra"];
     const request = global.nodemodule["request"];
     const axios = global.nodemodule['axios']; 
-    if(event.type == "message_reply")["🤔"]
+    if(event.type == "message_reply")
       let name = await Users.getNameUser(event.messageReply.senderID) 
   uid = event.messageReply.senderID
   var callback = () =>   api.sendMessage({body:`${name} 💞sanam teri kasam.oo sanam teri kasam.tujhe dekhte hi aankhain ho jati naamm..!!
