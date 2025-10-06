@@ -12,9 +12,9 @@ module.exports.config = {
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	let react = event.body.toLowerCase();
-	if(react.includes("Love") ||
-     react.includess("Love") || react.includes("चूमा") || react.includes("Kiss") ||
-react.includes("Love me") || event.body.indexOf("🙈")==0 || event.body.indexOf("Kiss")==0 || event.body.indexOf("Chumma")==0 || event.body.indexOf("Ppi")==0 ||
+	if(react.includes("ummmah") ||
+     react.includess("Love") || react.includes("🍫🍫🍫") || react.includes("pyaar") ||
+react.includes("baby") || event.body.indexOf("🙈")==0 || event.body.indexOf("baby")==0 || event.body.indexOf("Chumma")==0 || event.body.indexOf("Ppi")==0 ||
 react.includes("Love you")) {
 		var msg = {
 				body: `𝑰 𝑲𝑰𝑺𝑺 𝒀𝑶𝑼 𝑻𝑶𝑶 𝑩𝑨𝑩𝒀 💋🙊💞`,attachment: fs.createReadStream(__dirname + `/noprefix/kissyou.gif`)
