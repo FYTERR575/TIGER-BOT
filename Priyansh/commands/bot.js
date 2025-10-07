@@ -116,7 +116,7 @@ if ((event.body.toLowerCase() == "pagal") || (event.body.toLowerCase() == "Putt"
      return api.sendMessage("sochta hu tumhe purpose karu😒👈", threadID);
    };
 
-  if ((event.body.toLowerCase() == "bolo") || (event.body.toLowerCase() == "bol") || (event.body.toLowerCase() == "bot") || (event.body.toLowerCase() == "pyaar")) {
+  if ((event.body.toLowerCase() == "bolo") || (event.body.toLowerCase() == "bol") || (event.body.toLowerCase() == "Chup") || (event.body.toLowerCase() == "pyaar")) {
      return api.sendMessage("tumhe kaise pata mai cutie  hu😒👈", threadID);
    };
 
