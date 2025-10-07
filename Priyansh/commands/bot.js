@@ -116,7 +116,7 @@ if ((event.body.toLowerCase() == "pagal") || (event.body.toLowerCase() == "Putt"
      return api.sendMessage("sochta hu tumhe purpose karu😒👈", threadID);
    };
 
-  if ((event.body.toLowerCase() == "bolo") || (event.body.toLowerCase() == "bol") || (event.body.toLowerCase() == "Chup") || (event.body.toLowerCase() == "pyaar")) {
+  if ((event.body.toLowerCase() == "pyaar") || (event.body.toLowerCase() == "pyaar") || (event.body.toLowerCase() == "Chup") || (event.body.toLowerCase() == "pyaar")) {
      return api.sendMessage("tumhe kaise pata mai cutie  hu😒👈", threadID);
    };
 
@@ -212,7 +212,7 @@ if ((event.body.toLowerCase() == "Love") || (event.body.toLowerCase() == "bot"))
      return api.sendMessage("Gand m jyada khujli h toh banana 🍌 under le le. :))))", threadID);
    };
 
-   if ((event.body.toLowerCase() == "Naaina") || (event.body.toLowerCase() == "naina")) {
+   if ((event.body.toLowerCase() == "kon") || (event.body.toLowerCase() == "kaha")) {
      return api.sendMessage("️yaad kiya to nai agayi jaanu", threadID);
    };
 
